@@ -1,0 +1,318 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* header  */
+header {
+  width: 100%;
+  height: 65px;
+  background-color: rgba(255, 141, 0, 0.4);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.logo img{
+  width: 170px;
+  margin-top: 5px;
+  font-size: 40px;
+  color: white;
+  transition: all 0.5s;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right ul li {
+  float: left;
+  list-style-type: none;
+}
+
+.header-right ul li a {
+  color: white;
+  display: block;
+  transition: all 0.5s;
+  line-height: 65px;
+  padding: 0 25px;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 141, 0, 1);
+}
+
+.menu {
+  float: right;
+  padding-top: 15px;
+  display: none;
+
+}
+
+.menu img {
+  width: 30px;
+}
+
+/* top-wrapper */
+.top-wrapper {
+  padding: 380px 0 325px 0;
+  background-image: url(image/background-top-wrapper.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  border-bottom: 6px solid rgb(255, 141, 0);
+}
+
+.top-wrapper h3 {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: rgba(255, 141, 0, 0.7);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.top-wrapper h3:hover {
+  opacity: 1;
+}
+
+/* main */
+.contents-galeri {
+  border-bottom: 1px solid salmon;
+  padding-bottom: 40px;
+}
+
+.galeri-wrapper {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  background-color: white;
+}  
+
+.heading {
+  text-align: center;
+  margin: 20px auto 30px auto;
+  padding: 15px auto;
+}
+
+.heading h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+
+.content {
+  float: left;
+  width: 33.3%;
+}
+
+
+.content-image {
+  position: relative;
+}
+
+.content-image img {
+  width: 80%;
+  border-radius: 0 60px;
+}
+
+.txt-content-image {
+  padding: 10px 40px;
+  color: #333;
+}
+
+p.txt-content-image {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.txt-content-image span {
+  font-weight: bold;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.btn-galeri {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-galeri p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: white ;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.more {
+  background-color: rgb(255, 141, 0);
+  font-size: 12px;
+}
+
+
+/* tentang kami */
+.tentangkami-wrapper {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  background-color: white;
+}
+
+.content-tentang-kami {
+  padding-bottom: 30px;
+}
+
+.content-tentang-kami p {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.content-guide-tour {
+  border-bottom: 1px solid salmon;
+  padding-bottom: 40px;
+
+}
+
+.guide-tour-talents {
+  float: left;
+  width: 25%;
+}
+
+.talent {
+  position: relative;
+}
+
+.talent img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.talent h3 {
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 2px;
+}
+
+.talent p {
+  font-size: 12px;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: whitesmoke;
+  padding-top: 25px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right ul li {
+  float: left;
+  list-style-type: none;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right .btn {
+  padding: 10px 15px;
+  color: white ;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 8px;
+}
+
+.fa {
+  font-size: 14px;
+  color: white;
+}
+
+.fa img {
+  width: 10px;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.instagram {
+  background-color: #ff005e ;
+}
+
+.email {
+  background-color: #36b120 ;
+}
+
+
+  /* bottom-wrapper */
+
+.bottom-wrapper {
+  background-color: #333333;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bottom-wrapper p {
+  color: white;
+  font-size: 12px;
+}
