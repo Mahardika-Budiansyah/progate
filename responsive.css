@@ -1,0 +1,45 @@
+@media all and (max-width:  1000px) {
+	.menu {
+		display: hide;
+	}
+
+	.guide-tour-talents {
+		width: 50%;
+	}
+
+	.talent {
+		padding-bottom: 40px;
+	}
+}
+
+@media all and (max-width: 820px) {
+	.header-right {
+		display: none;
+	}
+
+	.menu {
+		display: block;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	.txt-content-image {
+		padding-bottom: 50px;
+	}
+
+	.content-image img {
+  		width: 50%;
+  		border-radius: 0 60px;
+  	}
+
+	.guide-tour-talents {
+		width: 100%;
+	}
+
+	.talent {
+		padding-bottom: 30px;
+	}
+
+}
